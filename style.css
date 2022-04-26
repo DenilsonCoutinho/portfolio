@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.background-header{
+     height: 100px;
+     background:#F05454;
+     border: 1px solid rgba(255, 255, 255, 0.18);
+   
+    
+}
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #fff;
+    z-index: 1;
+    font-size: 3rem;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.name-img{
+    display:flex;
+    align-items: center
+}
+
+
+.dev p{
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+header .nav{
+    display: flex;
+    align-items:center;
+}
+header .nav ul {
+    display: flex;
+    
+  
+    color: #fff;
+}
+header .nav ul li{
+    margin: 10px;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+header .nav ul li:hover{
+    border-bottom: 1px solid ;
+   
+}
+.menu{
+    display: none;
+}
+
+
+.apresentation {
+    background-image: url(images/1920x1080\ \ Animated\ Mario\ Gif\ by\ ColinPloxgif.gif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-width: 100%;
+   padding-bottom: 220px;
+}
+.luigi{
+    animation-name: luigi;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.luigi2{
+    display: none;
+    animation-name: luigi;
+}
+.mario{
+    animation-name: mario;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.apresentation h1 {
+    color: rgb(244, 238, 238);
+    font-size: 6rem;
+    font-family: 'Chakra Petch', sans-serif;
+    letter-spacing: 3px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+.buttons-link{
+    max-width:400px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.button-github{
+  
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+  border-radius: 8px;
+  margin: 10px;
+  border:none;
+}
+.button-github:hover{
+    background-color:#0080ff;
+    cursor:pointer;
+}
+.button-linked{
+   
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 10px;
+    border:none;
+}
+.button-linked:hover{
+    background-color:#000000;
+    color:white;
+    cursor:pointer;
+}
+.fa-brands{
+    font-size: 32px
+}
+.fa-linkedin{
+    color:#0A66C2;
+}
+.background-infomations{
+    background-color:#F05454;
+    height: 60vh;
+}
+.infomations{
+    display:flex;
+    max-width:1200px;
+    margin: 0 auto;
+    padding-top:150px;
+   
+}
+
+.infomations h1{
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    color:white;
+ }
+.infomations p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size:1.3rem;
+    max-width:700px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+ }
+ .full-stack{
+     background:white;
+     border: 1px solid rgba(45, 41, 41, 0.559);
+     border-radius:11px;
+     max-width:500px;
+     margin: 0 auto;
+     text-align: center;
+     position: relative;
+     bottom: 120px;
+ }
+ .full-stack h1{
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-size:1.8rem;
+ }
+
+ .full-stack p{
+     max-width:380px;
+     margin: 0 auto;
+     font-size:1.2rem;
+     text-align: center;
+     font-family: 'Chakra Petch', sans-serif;
+     letter-spacing: 2px;
+ }
+.full-stack .title{
+    color:#ed3030;
+    
+    font-size:1.3rem;
+}
+.full-stack .title2{
+    color:#ed3030;
+    max-width:500px;
+    font-size:1.3rem;
+    margin-top: 50px;
+}
+.full-stack .collunm{
+    display:flex;
+    flex-direction: column;
+}
+.full-stack .collunm p{
+   padding-bottom:40px;
+}
+.projcts h1{
+    font-size:2rem;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+@keyframes luigi{
+    0%{
+        transform: translateY(8px);
+    }
+    5%{
+        transform: translateY(-8px);
+    
+    }
+    15%{
+        transform: translateY(8px);
+    
+    }
+    25%{
+        transform: translateY(-8px);
+    
+    }
+    35%{
+        transform: translateY(8px);
+    
+    }
+    45%{
+        transform: translateY(-8px);
+    
+    }
+    55%{
+        transform: translateY(8px);
+    
+    }
+  75%{
+        transform: translateY(-8px);
+    
+    }
+}
+@keyframes luigi{
+    0%{
+        transform: translateY(8px);
+    }
+    5%{
+        transform: translateY(-8px);
+    
+    }
+    15%{
+        transform: translateY(8px);
+    
+    }
+    25%{
+        transform: translateY(-8px);
+    
+    }
+    35%{
+        transform: translateY(8px);
+    
+    }
+    45%{
+        transform: translateY(-8px);
+    
+    }
+    55%{
+        transform: translateY(8px);
+    
+    }
+  75%{
+        transform: translateY(-8px);
+    
+    }
+}
+@keyframes mario {
+    0%{
+        transform: translateY(-8px);
+    }
+    5%{
+        transform: translateY(8px);
+    
+    }
+    15%{
+        transform: translateY(-8px);
+    
+    }
+    25%{
+        transform: translateY(8px);
+    
+    }
+    35%{
+        transform: translateY(-8px);
+    
+    }
+    45%{
+        transform: translateY(8px);
+    
+    }
+    55%{
+        transform: translateY(-8px);
+    
+    }
+  75%{
+        transform: translateY(8px);
+    
+    }
+}
+
+@media(max-width: 951px){
+.infomations{
+    flex-direction: column-reverse;
+}
+.toad{
+    display:none;
+}
+    .toad2{
+        display:none;
+    }
+}
+@media(max-width: 706px){
+    header .name-img h1{
+        font-size: 2rem;
+    }
+    .apresentation .container h1{
+        font-size: 4rem;
+    }
+    .apresentation .container{
+        flex-direction: column;
+    }
+    .mario{
+        width: 100px;
+    }
+    .luigi{
+        display: none;
+    }
+    .luigi2{
+        display: block;
+        animation-timing-function: linear;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        width: 100px;
+    }
+    .M-and-L{
+        display:flex;
+    }
+}
+
+
+
+
+@media(max-width: 572px){
+    .full-stack{
+        background:white;
+        border: 1px solid rgba(45, 41, 41, 0.559);
+        border-radius:11px;
+        max-width:500px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        bottom: 0px;
+    }
+   
+    .dev p{
+        color: #fff;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 1rem;
+        margin-left: 40px;
+    }
+    header .name-img h1{
+        font-size: 1.5rem;
+    }
+    .menu{
+        display: block;
+    }
+    header .nav-menu{
+        position: absolute;
+        right: 10px;
+        top: 50px
+    }
+    header .nav ul {
+        display: flex;
+       flex-direction: column;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background: rgb(243, 170, 11);
+        background: linear-gradient(90deg, rgba(243, 170, 11, 1) 12%, rgba(228, 99, 34, 1) 100%);
+        position:fixed;
+        right: -110%;
+        width: 290px;
+        height:130vh;
+        align-items: center;
+        transition:all 400ms ease-in;
+    
+}
+    }
+    header .nav ul.active {
+    right: 0;
+    }
+    header .nav ul li{
+        margin: 20px;
+        list-style-type: none;
+        font-family: sans-serif;
+    }
+    .L1:hover{
+        color: #3079ed;
+    
+        
+    }
+    .L2:hover{
+        color: #ed3030;
+    }
+    
+    .L3:hover{
+        color: #3079ed;
+    }
+    
+    .L4:hover{
+        color: #ed3030;
+    }
+    
+    .L5:hover{
+        color: #3079ed;
+    }
+    .L6:hover{
+        color: #ed3030;
+    }
+    .L7:hover{
+        color: #3079ed;
+    }
+    .L8:hover{
+        color: #ed3030;
+    }
+    .L9:hover{
+        color: #3079ed;
+    }
+    .L10:hover{
+        color: #ed3030;
+    }
+    .L11:hover{
+        color: #3079ed;
+    }
+    .L12:hover{
+        color: #ed3030;
+    }
+    .L13:hover{
+        color: #3079ed;
+    }
+    .L14:hover{
+        color: #ed3030;
+    }
+    .L15:hover{
+        color: #3079ed;
+    }
+    .L16:hover{
+        color: #ed3030;
+    }
+    .L17:hover{
+        color: #ed3030;
+    }
+    .L18:hover{
+        color: #3079ed;
+    }
+    .L19:hover{
+        color: #ed3030;
+    }
+    .L20:hover{
+        color: #3079ed;
+    }
+    .L21:hover{
+        color: #ed3030;
+    }
+    .L22:hover{
+        color: #3079ed;
+    }
+    .L23:hover{
+        color: #ed3030;
+    }
+    .L24:hover{
+        color: #3079ed;
+    }
+    .L25:hover{
+        color: #ed3030;
+    }
+    .L26:hover{
+        color: #3079ed;
+    }
+    .L27:hover{
+        color: #ed3030;
+    }
+    .L28:hover{
+        color: #3079ed;
+    }
+    .L29:hover{
+        color: #ed3030;
+    }
+    .L30:hover{
+        color: #3079ed;
+        
+    }
+    .L31:hover{
+        color: #3079ed;
+        
+    }
+    .L32:hover{
+        color: #3079ed;
+        
+    }
+    .L33:hover{
+        color: #3079ed;
+        
+    }
+    
+    
