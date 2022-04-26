@@ -10,7 +10,9 @@
      height: 100px;
      background:#F05454;
      border: 1px solid rgba(255, 255, 255, 0.18);
-   
+   position: fixed;
+   z-index: 1;
+   width:100%
     
 }
 header {
@@ -72,6 +74,7 @@ header .nav ul li:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     max-width: 100%;
+    padding-top: 100px;
    padding-bottom: 220px;
 }
 .luigi{
@@ -116,7 +119,7 @@ header .nav ul li:hover{
 }
 .button-github{
   
-    width: 120px;
+    width: 150px;
     height: 40px;
     font-size: 18px;
   border-radius: 8px;
@@ -129,7 +132,7 @@ header .nav ul li:hover{
 }
 .button-linked{
    
-    width: 120px;
+    width: 150px;
     height: 40px;
     font-size: 18px;
     border-radius: 8px;
@@ -149,7 +152,7 @@ header .nav ul li:hover{
 }
 .background-infomations{
     background-color:#F05454;
-    height: 60vh;
+   padding-bottom: 200px;
 }
 .infomations{
     display:flex;
@@ -252,39 +255,7 @@ header .nav ul li:hover{
     
     }
 }
-@keyframes luigi{
-    0%{
-        transform: translateY(8px);
-    }
-    5%{
-        transform: translateY(-8px);
-    
-    }
-    15%{
-        transform: translateY(8px);
-    
-    }
-    25%{
-        transform: translateY(-8px);
-    
-    }
-    35%{
-        transform: translateY(8px);
-    
-    }
-    45%{
-        transform: translateY(-8px);
-    
-    }
-    55%{
-        transform: translateY(8px);
-    
-    }
-  75%{
-        transform: translateY(-8px);
-    
-    }
-}
+
 @keyframes mario {
     0%{
         transform: translateY(-8px);
@@ -365,12 +336,16 @@ header .nav ul li:hover{
     .full-stack{
         background:white;
         border: 1px solid rgba(45, 41, 41, 0.559);
-        border-radius:11px;
+        border-radius:0px;
         max-width:500px;
         margin: 0 auto;
+        margin-top: 10px;
         text-align: center;
         position: relative;
         bottom: 0px;
+    }
+    .background-infomations{
+        padding-bottom: 40px;
     }
    
     .dev p{
@@ -388,7 +363,7 @@ header .nav ul li:hover{
     header .nav-menu{
         position: absolute;
         right: 10px;
-        top: 50px
+        top: 100px
     }
     header .nav ul {
         display: flex;
@@ -398,8 +373,8 @@ header .nav ul li:hover{
         text-align: center;
         display: flex;
         flex-direction: column;
-        background: rgb(243, 170, 11);
-        background: linear-gradient(90deg, rgba(243, 170, 11, 1) 12%, rgba(228, 99, 34, 1) 100%);
+        background: rgb(11, 100, 243);
+        background: linear-gradient(90deg, rgb(11, 170, 243) 12%, #ed3030 100%);
         position:fixed;
         right: -110%;
         width: 290px;
