@@ -339,73 +339,7 @@ footer p{
     color: #fff;
 }
 
-@keyframes luigi{
-    0%{
-        transform: translateY(8px);
-    }
-    5%{
-        transform: translateY(-8px);
-    
-    }
-    15%{
-        transform: translateY(8px);
-    
-    }
-    25%{
-        transform: translateY(-8px);
-    
-    }
-    35%{
-        transform: translateY(8px);
-    
-    }
-    45%{
-        transform: translateY(-8px);
-    
-    }
-    55%{
-        transform: translateY(8px);
-    
-    }
-  75%{
-        transform: translateY(-8px);
-    
-    }
-}
 
-@keyframes mario {
-    0%{
-        transform: translateY(-8px);
-    }
-    5%{
-        transform: translateY(8px);
-    
-    }
-    15%{
-        transform: translateY(-8px);
-    
-    }
-    25%{
-        transform: translateY(8px);
-    
-    }
-    35%{
-        transform: translateY(-8px);
-    
-    }
-    45%{
-        transform: translateY(8px);
-    
-    }
-    55%{
-        transform: translateY(-8px);
-    
-    }
-  75%{
-        transform: translateY(8px);
-    
-    }
-}
 
 @media(max-width: 951px){
 .infomations{
@@ -668,5 +602,71 @@ footer p{
         color: #3079ed;
         
     }
+    @keyframes luigi{
+    0%{
+        transform: translateY(8px);
+    }
+    5%{
+        transform: translateY(-8px);
     
+    }
+    15%{
+        transform: translateY(8px);
+    
+    }
+    25%{
+        transform: translateY(-8px);
+    
+    }
+    35%{
+        transform: translateY(8px);
+    
+    }
+    45%{
+        transform: translateY(-8px);
+    
+    }
+    55%{
+        transform: translateY(8px);
+    
+    }
+  75%{
+        transform: translateY(-8px);
+    
+    }
+}
+
+@keyframes mario {
+    0%{
+        transform: translateY(-8px);
+    }
+    5%{
+        transform: translateY(8px);
+    
+    }
+    15%{
+        transform: translateY(-8px);
+    
+    }
+    25%{
+        transform: translateY(8px);
+    
+    }
+    35%{
+        transform: translateY(-8px);
+    
+    }
+    45%{
+        transform: translateY(8px);
+    
+    }
+    55%{
+        transform: translateY(-8px);
+    
+    }
+  75%{
+        transform: translateY(8px);
+    
+    }
+}
     
