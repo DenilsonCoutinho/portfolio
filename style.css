@@ -497,7 +497,7 @@ footer p{
     header .nav-menu{
         position: absolute;
         right: 10px;
-        top: 100px
+        top: 99px
     }
     header .nav ul {
         display: flex;
@@ -533,7 +533,7 @@ footer p{
         display: block;
     }
     header .nav ul li{
-        margin: 90px;
+        margin: 70px;
         list-style-type: none;
         font-family: sans-serif;
         font-size: 1rem;
