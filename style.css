@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 .background-header{
      height: 100px;
@@ -58,6 +59,10 @@ header .nav ul li{
     list-style-type: none;
     font-family: sans-serif;
     cursor:pointer;
+}
+header .nav ul a{
+    text-decoration: none;
+    color: #fff;
 }
 header .nav ul li:hover{
     border-bottom: 1px solid ;
@@ -286,6 +291,54 @@ display: none;
     cursor:pointer;
     transition: all 0.5s;
 }
+.cont{
+    text-align:center;
+    margin-top: 190px;
+}
+.contact{
+    display:flex;
+    align-items: center;
+
+    justify-content:center;
+    max-width:1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.cont{
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.contact .Linkedin{
+    border: 1px solid;
+    width:400px;
+    border-color: rgba(63, 59, 59, 0.24);
+}
+.contact .Whatsapp{
+    border: 1px solid;
+    width:400px;
+    border-color: rgba(63, 59, 59, 0.24);
+}
+.contact .Gmail{
+    border: 1px solid;
+    width:400px;
+    border-color: rgba(63, 59, 59, 0.24);
+}
+footer{
+    text-align: center;
+    background-color:#ed3030;
+    height:500px;
+}
+footer h1{
+    padding-top: 240px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #fff;
+}
+footer p{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #fff;
+}
+
 @keyframes luigi{
     0%{
         transform: translateY(8px);
@@ -396,7 +449,7 @@ display: none;
 
 
 
-@media(max-width: 572px){
+@media(max-width: 586px){
     .full-stack{
         background:white;
         border: 1px solid rgba(45, 41, 41, 0.559);
@@ -411,7 +464,24 @@ display: none;
     .background-infomations{
         padding-bottom: 40px;
     }
-   
+    .contact .Linkedin{
+        border: 1px solid;
+        width:300px;
+        border-color: rgba(63, 59, 59, 0.24);
+    }
+    .contact .Whatsapp{
+        border: 1px solid;
+        width:300px;
+        border-color: rgba(63, 59, 59, 0.24);
+    }
+    .contact .Gmail{
+        border: 1px solid;
+        width:300px;
+        border-color: rgba(63, 59, 59, 0.24);
+    }
+   .contact{
+       flex-direction: column;
+   }
     .dev p{
         color: #fff;
         font-family: 'Chakra Petch', sans-serif;
